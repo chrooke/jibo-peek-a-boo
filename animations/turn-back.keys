@@ -1,0 +1,77 @@
+{
+    "version": "0.5.0",
+    "framerate": 30,
+    "duration": 30,
+    "scale": 1,
+    "layers": [
+        {
+            "id": "c84755cfee894dff85fc8131cbe20235",
+            "name": "Eye",
+            "type": "Eye",
+            "visible": true,
+            "locked": false,
+            "keyframes": []
+        },
+        {
+            "id": "27a2867b99714e62a4c74bf4c3abb592",
+            "name": "Eye Texture",
+            "type": "Eye Texture",
+            "visible": true,
+            "locked": false,
+            "keyframes": []
+        },
+        {
+            "id": "5c67fef73e9f4d5c91da6e9f4fed21c4",
+            "name": "Body",
+            "type": "Body",
+            "visible": true,
+            "locked": false,
+            "keyframes": [
+                {
+                    "value": {
+                        "Head": -106,
+                        "Torso": -29.500000000000004,
+                        "Pelvis": -39.99999999999999,
+                        "Tween": {
+                            "display": "sine in out",
+                            "label": "Sine Ease In Out",
+                            "value": "sineInOut"
+                        }
+                    },
+                    "time": 0
+                },
+                {
+                    "value": {
+                        "Head": 0,
+                        "Torso": 0,
+                        "Pelvis": 0,
+                        "Tween": {
+                            "display": "sine in out",
+                            "label": "Sine Ease In Out",
+                            "value": "sineInOut"
+                        }
+                    },
+                    "time": 29
+                }
+            ]
+        },
+        {
+            "id": "dfeecc49b0d548e1a84452e52674471d",
+            "name": "Event",
+            "type": "Event",
+            "visible": true,
+            "locked": false,
+            "keyframes": [
+                {
+                    "value": {
+                        "Event": {
+                            "name": "SeeYou",
+                            "payload": ""
+                        }
+                    },
+                    "time": 15
+                }
+            ]
+        }
+    ]
+}

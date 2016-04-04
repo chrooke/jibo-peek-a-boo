@@ -1,0 +1,8 @@
+TopRule = $* (
+                $baby{what='baby'} |
+                $parent{what='done'}
+             )
+          $*;
+
+baby = (again|gain|boo|peekaboo|jibo);
+parent = (done|enough|finished);
