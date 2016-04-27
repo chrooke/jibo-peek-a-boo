@@ -342,10 +342,10 @@
         "options": {
             "exec": [
                 "() => {",
-                "  notepad.turned_min_wait=1000;",
-                "  notepad.turned_max_wait=4000;",
+                "  notepad.turned_min_wait=3000;",
+                "  notepad.turned_max_wait=20000;",
                 "  notepad.facing_min_wait=4000;",
-                "  notepad.facing_max_wait=4000;",
+                "  notepad.facing_max_wait=6000;",
                 "}"
             ]
         },

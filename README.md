@@ -28,3 +28,7 @@ I want to trigger the "See you" sound from an animation event, but for some reas
 ## Acknowledgments
 This skill was inspired by Michael Rodriguez's "Jibo, Look Away" skill, though it uses none of his code.
 This skill uses some code from the blank "Hello, world" Jibo project and some code from Jibo's sample-code.
+
+# Version history
+0.1: Initial release.
+0.2: Updated for jibo-sdk 1.3.3. Slight change to timing.
